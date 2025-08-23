@@ -1,0 +1,11 @@
++rules:
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,epicgames.com,DIRECT
+  - DOMAIN-SUFFIX,ea.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,cdn.steamchina.com,DIRECT
+  - DOMAIN-SUFFIX,battle.net,DIRECT
+  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,rockstargames-com.akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,DIRECT

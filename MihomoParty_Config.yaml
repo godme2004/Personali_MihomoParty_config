@@ -1,0 +1,52 @@
+core: mihomo
+enableSmartCore: false
+enableSmartOverride: true
+smartCoreUseLightGBM: false
+smartCoreCollectData: false
+smartCoreStrategy: sticky-sessions
+silentStart: true
+appTheme: system
+useWindowFrame: false
+proxyInTray: true
+maxLogDays: 7
+proxyCols: auto
+connectionDirection: asc
+connectionOrderBy: time
+useSubStore: true
+proxyDisplayMode: full
+proxyDisplayOrder: delay
+autoCheckUpdate: true
+autoCloseConnection: false
+useNameserverPolicy: false
+controlDns: true
+controlSniff: true
+floatingWindowCompatMode: true
+disableLoopbackDetector: false
+disableEmbedCA: false
+disableSystemCA: false
+skipSafePathCheck: false
+nameserverPolicy: {}
+siderOrder:
+  - sysproxy
+  - tun
+  - profile
+  - proxy
+  - log
+  - resource
+  - connection
+  - rule
+  - override
+  - mihomo
+  - dns
+  - sniff
+  - substore
+siderWidth: 250
+sysProxy:
+  enable: true
+  mode: manual
+language: zh-CN
+diffWorkDir: true
+substoreCardStatus: hidden
+resourceCardStatus: hidden
+showWindowShortcut: Ctrl+Alt+C
+profileDisplayDate: update
