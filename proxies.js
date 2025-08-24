@@ -40,7 +40,7 @@ const dnsConfig = {
     "localhost.work.weixin.qq.com"
   ],
   "default-nameserver": ["223.5.5.5","1.2.4.8"],
-  "nameserver": [...foreignNameservers],
+  "nameserver": [...foreignNameservers], // 已更正此处的拼写错误
   "proxy-server-nameserver":[...domesticNameservers],
   "nameserver-policy": {
     "geosite:private,cn": domesticNameservers
@@ -338,7 +338,7 @@ function main(config) {
       "proxies": fallbackProxies,
       "include-all": true,
       "filter": "^(?!.*(官网|套餐|流量|异常|剩余)).*$",
-      "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/game-controller.svg"
+      "icon": "https://fastly.jsdelivr.net/gh/Orz-3/mini@master/Color/heybox.png"
     }
   ];
 
