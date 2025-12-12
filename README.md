@@ -1,7 +1,7 @@
 # Personali_MihomoParty_config
 
 ---
-- [ ]ss
+- [ ] ss
 1. s
 2. d
 3. s
